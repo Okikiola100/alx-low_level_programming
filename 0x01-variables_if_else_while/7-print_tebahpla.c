@@ -1,8 +1,8 @@
-nclude <stdio.h>
+#include <stdio.h>
 /**
- *  *main - prints hexadecimal base 0123456789abcdef, using putchar
- *   *Return: Always 0 (Success)
- *    */
+*main - prints hexadecimal base 0123456789abcdef, using putchar
+*Return: Always 0 (Success)
+*/
 int main(void)
 {
 		char a;
@@ -10,7 +10,7 @@ int main(void)
 
 			for (a = 'z'; a >= 'a' ; a--)
 					{
-								putchar(a);
+						putchar(a);
 									}
 				putchar('\n');
 					return (0);

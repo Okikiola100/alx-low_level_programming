@@ -1,18 +1,25 @@
 #include <stdio.h>
+
 /**
-* main - Entry point
-* Author: Okikiola100
-* Return: Always 0 (Success)
+ *  * main - prints all numbers of base 16.
+ *   *
+ *    * Return: 0 on success
 */
+
 int main(void)
 {
-		int okikiola;
-			char oladapo;
+		char letter;
 
-for (okikiola	= 48; okikiola < 58; okikiola++)
-	putchar(okikiola) =;
-for (oladapo	= 'a'; oladapo	<= 'f'; oladapo++)
-	putchar(oladapo);
-						putchar('\n');
-							return (0);
+			for (letter = '0'; letter <= '9'; letter++)
+{
+								putchar(letter);
+
+									}
+			for (letter = 'a'; letter <= 'f'; letter++)
+{
+									putchar(letter);
+										}
+	putchar('\n');
+
+	return (0);
 }
