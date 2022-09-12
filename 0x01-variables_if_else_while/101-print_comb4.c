@@ -19,21 +19,21 @@ int main(void)
 		while (n2  <= 57)
 		{
 			n3 = n2 + 1;
-		while (n3 <= 57)
-		{
-			putchar(n1);
-			putchar(n2);
-			putchar(n3);
-			if (n1 != 55 || n2 != 56 || n3 != 57)
-				putchar(com);
-																																																											putchar(32);
+			while (n3 <= 57)
+			{
+				putchar(n1);
+				putchar(n2);
+				putchar(n3);
+				if (n1 != 55 || n2 != 56 || n3 != 57)
+					putchar(com);
+				putchar(32);
+			}
+			n3 += 1
 		}
-																																															n3 += 1;
-							}
-																									n2 += 1;
-																											}
-														n1 += 1;
-															}
-						putchar('\n');
-							return (0);
+		n2 += 1;
+	}
+	n1 += 1;
+}
+putchar('\n');
+return (0);
 }
