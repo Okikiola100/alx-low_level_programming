@@ -28,7 +28,7 @@ int main(void)
 					putchar(com);
 				putchar(32);
 			}
-			n3 += 1
+			n3 += 1;
 		}
 		n2 += 1;
 	}
